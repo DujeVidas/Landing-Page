@@ -38,6 +38,7 @@ body {
     align-items: center;
     justify-content:space-evenly;
     gap: 30%;
+    padding-bottom: 100px;
 }
 
 h1 {
@@ -64,9 +65,50 @@ h1 {
 .headerImage{
     height: 300px;
     width: 500px;
+    
 }
 
 img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+.infHeader {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.randInf {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+
+.illus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    border: 8px solid #3883f6;
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+}
+
+.subtext{
+    width: 200px;
+    font-size: 24px;
+    text-align: center;
 }
